@@ -1,0 +1,112 @@
+body{
+	padding: initial;
+	margin: 2%;
+}
+header {
+    background: #D1DBD9 url("../images/flywheel.jpg") 0px 0px no-repeat;
+    padding: 10px 30px 38px 30px;
+    height: 125px;
+    position: relative;
+    background-size: 100%;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 1.2% 6%;
+    display: inline-block;
+    margin-left: 6%;
+    margin-bottom: 1%;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+}
+nav a:hover{
+	font-weight: bold;
+	background: #FFFFFF;
+}
+.active{
+	background: #FFFFFF;
+}
+h1{	
+  	text-transform: uppercase;
+  	text-align: center;
+ 	color: #FFFFFF;
+  	position: relative;
+  	font-size: 150%;
+  	padding-bottom: 2%;
+}
+h2{
+  color: #000000;
+}
+.left{
+	background: #00FF00;
+	width: 22%;
+	padding: 1%;
+	float: left;
+	margin-top: -20px;
+}
+.right{
+	padding-left: 25%;
+}
+img{
+	display: block;
+	background: #00FF00;
+	width:90%;
+	border: 2px solid #000000;
+	margin: 10% 10% 10% 4.5%;
+}
+
+table{
+	font-family: Arial, Helvectica;
+	width:75%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 110%;
+}
+
+th{
+	background:  #07CFE3;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	background-image: url("https://www.freepik.com/free-photos-vectors/green-texture-background");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 5px 5px 0 0;
+	height: 40px;
+	box-shadow: 0 5px 0 #150EEC;
+}
+tr,td{
+	padding-left: 1%;
+	opacity: 0.75;
+	height: 30px;
+	max-width: 300px;
+	border: 1px solid #FFFFFF;
+	font-family: helvectica,Times,Cambria;
+}
+tr:nth-child(2n){
+	background: #ABB752;
+}
+
+/* I've used two colours here. you can use one for consecutive rows*/
+
+tr:nth-child(2n+3){
+	background: #CEF708; /*Excluding table heading*/
+}
+th:first-child{
+	text-align: left;
+	padding-left: 1%;
+}	
+td:nth-child(even),td:last-child{
+	text-align: center;
+}
+tr:hover{ /*other than heading*/
+	opacity: 2;
+	font-weight: bold;
+	height: 40px;
+	font-size: 110%;
+}
+tr:first-child:hover{ /* this one is the heading*/
+	font-size: 120%;
+	opacity: 3;
+	height: 45px;
+	font-weight: bold;
+}
